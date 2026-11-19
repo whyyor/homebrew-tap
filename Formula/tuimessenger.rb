@@ -2,28 +2,28 @@
 class Tuimessenger < Formula
   desc "WhatsApp, Telegram, Slack and Instagram in one terminal app"
   homepage "https://github.com/whyyor/tuimessenger"
-  version "0.1.5"
+  version "0.1.6"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.5/tuimessenger_v0.1.5_darwin_arm64.tar.gz"
-      sha256 "f979ff1eb7b04278781f65269bbd7426070e25ed83ba4fceba7875b7d70c3458"
+      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.6/tuimessenger_v0.1.6_darwin_arm64.tar.gz"
+      sha256 "fb7dcbf5067f951f086114b926c8b49136b2b08b121560cd348c541408ed518a"
     end
     on_intel do
-      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.5/tuimessenger_v0.1.5_darwin_amd64.tar.gz"
-      sha256 "7df45dc6831004cf90dadace03a3c47dab59303b3d3222f3f8ef1b4e1ed992a5"
+      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.6/tuimessenger_v0.1.6_darwin_amd64.tar.gz"
+      sha256 "a552c349bf49fe41c1f88c57528cfa1c9cc7acce043d22a8158c3a69ed102e2f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.5/tuimessenger_v0.1.5_linux_arm64.tar.gz"
-      sha256 "ab2bb172c24978664c8803b68d51247174d9240dd8dc9c2f2780b13d6efeab04"
+      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.6/tuimessenger_v0.1.6_linux_arm64.tar.gz"
+      sha256 "3d46af4b06cd4af1bed5d0db9655947d2f05f512658f6fec7e703c4d0585240a"
     end
     on_intel do
-      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.5/tuimessenger_v0.1.5_linux_amd64.tar.gz"
-      sha256 "64b11a0793a94b0b7ec910aab8c760ec080985add4b04395b5374029513bbadf"
+      url "https://github.com/whyyor/tuimessenger/releases/download/v0.1.6/tuimessenger_v0.1.6_linux_amd64.tar.gz"
+      sha256 "82a5d389c9452154ba386cf393f59ec7252f0d532990cc48cf273392f9753d8a"
     end
   end
 
